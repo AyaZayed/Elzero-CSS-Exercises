@@ -1,0 +1,22 @@
+div {
+  max-width: 40%;
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+p {
+  background-color: #dddddd;
+}
+
+div:first-of-type,
+div:first-of-type > p {
+  border: 2px solid #ff5722;
+  padding: 1rem;
+}
+
+div:last-of-type,
+div:last-of-type > p {
+  border: 2px solid #029789;
+  padding: 1rem;
+}
