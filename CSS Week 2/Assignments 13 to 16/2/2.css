@@ -1,0 +1,9 @@
+p {
+  background-color: #a52a2a;
+  color: white;
+  max-width: 400px;
+  padding: 10px;
+  overflow: hidden;
+  max-height: 40px;
+  text-transform: capitalize;
+}
