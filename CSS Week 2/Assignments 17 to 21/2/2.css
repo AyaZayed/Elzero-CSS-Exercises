@@ -1,0 +1,22 @@
+div {
+  border: 2px solid purple;
+  max-width: 500px;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.one {
+  text-transform: uppercase;
+}
+
+.two {
+  text-transform: capitalize;
+}
+
+.three {
+  text-transform: lowercase;
+}
