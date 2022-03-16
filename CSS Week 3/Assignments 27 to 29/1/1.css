@@ -1,0 +1,17 @@
+table {
+  width: 800px;
+  background-color: #eee;
+  margin: auto;
+  border-spacing: 15px;
+  empty-cells: hide;
+  font-family: Open Sans, sans-serif;
+  margin-top: 100px;
+  font-weight: 600;
+}
+
+table td {
+  background-color: #ddd;
+  text-align: center;
+  vertical-align: center;
+  height: 30px;
+}
