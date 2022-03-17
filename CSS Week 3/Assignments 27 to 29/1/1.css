@@ -1,17 +1,36 @@
-table {
+.table {
+  display: table;
   width: 800px;
-  background-color: #eee;
   margin: auto;
+  text-align: center;
   border-spacing: 15px;
-  empty-cells: hide;
+  background-color: #eee;
   font-family: Open Sans, sans-serif;
-  margin-top: 100px;
-  font-weight: 600;
+  border-collapse: separate;
 }
 
-table td {
+.row {
+  display: table-row;
   background-color: #ddd;
-  text-align: center;
-  vertical-align: center;
-  height: 30px;
+  height: 35px;
+}
+
+.row > div {
+  padding-top: 8px;
+}
+
+.cell1 {
+  width: 100%;
+}
+
+.cell3 {
+  width: 33.33%;
+}
+
+.cell2 {
+  width: 50%;
+}
+
+.cell4 {
+  width: 25%;
 }

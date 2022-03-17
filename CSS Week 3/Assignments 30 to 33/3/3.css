@@ -1,0 +1,32 @@
+.parent {
+  width: 400px;
+  margin: auto;
+  margin-top: 70px;
+  font-family: Open Sans, sans-serif;
+}
+
+.container {
+  margin-bottom: 20px;
+  background-color: #eeeeee;
+  padding: 10px;
+  list-style: none;
+}
+
+.white {
+  background-color: white;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.list-x {
+  list-style: upper-roman;
+}
+
+.inside {
+  list-style: inside;
+  list-style-type: circle;
+}
+
+.last {
+  padding-inline-start: 0;
+}

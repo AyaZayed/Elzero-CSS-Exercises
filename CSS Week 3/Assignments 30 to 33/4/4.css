@@ -1,0 +1,44 @@
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+h2 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+table {
+  width: 700px;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+}
+
+td img {
+  width: 100px;
+  margin: 10px 0;
+}
+
+thead td {
+  background-color: #404040;
+  padding: 10px 0;
+  color: white;
+}
+
+tbody td {
+  background-color: #eee;
+}
+
+tbody td button {
+  color: white;
+  border: none;
+  padding: 7px;
+}
+
+tbody td .view-btn {
+  background-color: #03a9f4;
+}
+
+tbody td .delete-btn {
+  background-color: #e91e63;
+}
