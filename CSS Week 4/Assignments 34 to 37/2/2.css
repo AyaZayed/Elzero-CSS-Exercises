@@ -1,0 +1,14 @@
+div {
+  margin: 200px auto;
+  background-color: #d4d4d4;
+  font-family: Open Sans, sans-serif;
+  padding: 10px;
+  width: 400px;
+}
+
+div::first-letter {
+  color: white;
+  background-color: #f00;
+  padding: 5px;
+  margin-left: -20px;
+}
