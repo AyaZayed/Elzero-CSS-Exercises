@@ -1,0 +1,15 @@
+div {
+  background-color: #efefef;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  box-shadow: inset 0px 0px 20px #222;
+  border-radius: 10% 50% 10%;
+  -webkit-border-radius: 10% 50% 10%;
+  -moz-border-radius: 10% 50% 10%;
+  -ms-border-radius: 10% 50% 10%;
+  -o-border-radius: 10% 50% 10%;
+}

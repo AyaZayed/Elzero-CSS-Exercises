@@ -1,0 +1,39 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  counter-increment: element-number;
+  position: relative;
+  box-shadow: -5px -5px 0px #e91e63, 5px 5px 0px #2196f3;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+div::after {
+  content: counter(element-number);
+  background-color: black;
+  color: white;
+  width: 20px;
+  position: absolute;
+  top: -10px;
+  right: 42%;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+div::before {
+  content: "Element";
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
